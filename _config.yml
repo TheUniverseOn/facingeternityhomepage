@@ -4,7 +4,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Foundation dedicated to helping third world children receive equal opportunity
 permalink: ':title/'
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://facingeternity.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://facingeternity.org" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Banner settings
 video: mountains.mp4 # add banner video. Add your video file to the folder video
@@ -15,9 +15,9 @@ banner-desc: Proverbs 31:8-9 # add banner description
 author-pic: face.png # your photo
 author-name: Alonso Castillo # your name
 about-author: Born in Colombia, Alonso is acquinted with the harsh environment unprivillaged children go through day to day. # about author
-email: contact@facingeternity.com # your email
+email: contact@facingeternity.org # your email
 phone: (704)-975-9765 # your pnone number
-website: https://www.facingeternity.com # you website
+website: https://www.facingeternity.org # you website
 
 # Social link
 google_url:    # add url link
