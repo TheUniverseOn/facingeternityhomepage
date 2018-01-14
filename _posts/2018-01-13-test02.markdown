@@ -1,0 +1,9 @@
+---
+layout: post
+title: "We start with them in mind"
+img: canyon.jpg # Add image post (optional)
+date: 2018-01-13 12:54:00 +0300
+description: We start with them in mind description.
+tag: [US, Kids, Meal]
+---
+A story of young lives.

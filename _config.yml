@@ -1,0 +1,47 @@
+logo: Facing<span>Eternity</span> # add logo name
+title: Facing Eternity
+description: > # this means to ignore newlines until "baseurl:"
+  Foundation dedicated to helping third world children receive equal opportunity
+permalink: ':title/'
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://facingeternity.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Banner settings
+video: mountains.mp4 # add banner video. Add your video file to the folder video
+banner-title: <q>Speak up for those who cannot speak for themselves... <br />  Defend the rights of the poor and needy</q> #add banner title
+banner-desc: Proverbs 31:8-9 # add banner description
+
+# Author settings
+author-pic: face.png # your photo
+author-name: Alonso Castillo # your name
+about-author: Born in Colombia, Alonso is acquinted with the harsh environment unprivillaged children go through day to day. # about author
+email: contact@facingeternity.com # your email
+phone: (704)-975-9765 # your pnone number
+website: https://www.facingeternity.com # you website
+
+# Social link
+google_url:    # add url link
+twitter_url:   # add url link
+instagram_url: # add url link
+pinterest_url: # add url link
+dribbble_url:  # add url link
+facebook_url:  # add url link
+
+# Newsletter
+mailchimp: # add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+
+# Tracker
+analytics:
+
+# Paginate
+paginate: 12
+paginate_path: /page:num/
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]

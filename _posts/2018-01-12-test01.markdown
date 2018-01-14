@@ -1,0 +1,9 @@
+---
+layout: post
+title: "A story of success"
+img: himalayan.jpg # Add image post (optional)
+date: 2018-01-12 12:55:00 +0300
+description: A story of success.
+tag: [Colombia, Kids, Prayer]
+---
+A story of success.
