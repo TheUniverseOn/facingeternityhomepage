@@ -28,10 +28,10 @@ dribbble_url:  # add url link
 facebook_url:  # add url link
 
 # Newsletter
-mailchimp: # add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+mailchimp: https://facingeternity.us17.list-manage.com/subscribe/post?u=5517b26889647146445f2a33a&amp;id=0493369d00
 
 # Tracker
-analytics:
+analytics: UA-112464932-1
 
 # Paginate
 paginate: 12
