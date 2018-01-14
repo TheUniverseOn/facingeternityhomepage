@@ -3,7 +3,7 @@ title: Facing Eternity
 description: > # this means to ignore newlines until "baseurl:"
   Foundation dedicated to helping third world children receive equal opportunity
 permalink: ':title/'
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog. Must be empty for gh-pages per http://downtothewire.io/2015/08/15/configuring-jekyll-for-user-and-project-github-pages/
 url: "https://facingeternity.org" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Banner settings
