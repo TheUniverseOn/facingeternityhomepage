@@ -1,1 +1,1 @@
-Webiste for FacingEternity.org
+Website for FacingEternity.org
