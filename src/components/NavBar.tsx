@@ -6,8 +6,7 @@ import {
   MDBNavItem,
   MDBNavLink,
   MDBNavbarToggler,
-  MDBCollapse,
-  MDBIcon
+  MDBCollapse
 } from "mdbreact";
 
 class NavBar extends Component {
@@ -31,11 +30,6 @@ class NavBar extends Component {
         <MDBNavbarToggler onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
           <MDBNavbarNav right>
-            <MDBNavItem>
-              <MDBNavLink to="https://www.instagram.com/facingeternityfoundation/">
-                <MDBIcon fab icon="instagram" />
-              </MDBNavLink>
-            </MDBNavItem>
             <MDBNavItem>
               <MDBNavLink to="/about">About</MDBNavLink>
             </MDBNavItem>
