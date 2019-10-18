@@ -1,9 +1,8 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
-import PageNotFound from "./PageNotFound";
 import Sibate0419 from "./blog/Sibate0419";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
@@ -11,7 +10,7 @@ import NavBar from "./components/NavBar";
 const App: React.FC = () => {
   return (
     <React.Fragment>
-      <Router>
+      <Router basename="/">
         <div
           className="stylish-color-dark"
           style={{
@@ -31,7 +30,7 @@ const App: React.FC = () => {
               <Route path="/about" component={About} />
               <Route path="/contact" component={Contact} />
               <Route path="/blog/sibate0419" component={Sibate0419} />
-              <Route component={PageNotFound} />
+              <Route component={Home} />
             </Switch>
           </div>
           <div
