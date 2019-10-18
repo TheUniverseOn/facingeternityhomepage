@@ -53,6 +53,7 @@ const MDBcontact = () => {
                   <MDBInput
                     required
                     label="Your name"
+                    name="name"
                     group
                     type="text"
                     validate
@@ -62,6 +63,7 @@ const MDBcontact = () => {
                   <MDBInput
                     required
                     label="Your email"
+                    name="_replyto"
                     group
                     type="email"
                     validate
@@ -71,6 +73,7 @@ const MDBcontact = () => {
                   <MDBInput
                     required
                     label="Subject"
+                    name="subject"
                     group
                     type="text"
                     validate
@@ -80,6 +83,7 @@ const MDBcontact = () => {
                   <MDBInput
                     required
                     type="textarea"
+                    name="message"
                     rows="2"
                     label="Your message"
                   />
