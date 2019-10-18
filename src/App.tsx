@@ -1,16 +1,27 @@
 import React from "react";
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { Router, Route, Switch } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
 import Sibate0419 from "./blog/Sibate0419";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
+import ReactGA from "react-ga";
+import { createBrowserHistory } from "history";
+
+// Initialize google analytics page view tracking
+const trackingId = "UA-112464932-1";
+ReactGA.initialize(trackingId);
+const history = createBrowserHistory();
+history.listen(location => {
+  ReactGA.set({ page: location.pathname }); // Update the user's current page
+  ReactGA.pageview(location.pathname); // Record a pageview for the given page
+});
 
 const App: React.FC = () => {
   return (
     <React.Fragment>
-      <Router basename="/">
+      <Router history={history}>
         <div
           className="stylish-color-dark"
           style={{
