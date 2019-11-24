@@ -1,7 +1,7 @@
 Website for FacingEternity.org
 
 ## BUILD
-npm install --no-optional
+npm ci
 
 ## LOCAL RUN
 npm start
