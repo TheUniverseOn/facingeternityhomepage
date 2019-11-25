@@ -148,9 +148,10 @@ const Sibate0419 = () => (
             <MDBRow>
                 <p className="white-text">
                     Many took the time to share their walk. Here is the case of Alberto who
-                    has strugled with mental illness throughout his life. He hadn't had a new
-                    pair of shoes in almost a decade but thanks to this outreach he found a pair
-                    just right for him.
+                    has strugled with mental and physical disabilities after being hit by a an eighteen wheeler.
+                    After two years of rehabilitation and recovering from a large part of his body being fractured. 
+                    He hadn't had a new pair of shoes in almost a decade but thanks to this outreach
+                    he found a pair just right for him.
                 </p>
             </MDBRow>
             <MDBRow center>

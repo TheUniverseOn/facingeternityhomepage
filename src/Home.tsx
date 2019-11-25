@@ -41,14 +41,14 @@ const Home = () => (
     <MDBContainer className="d-flex align-items-center py-0 px-0">
       <MDBCarousel
         activeItem={1}
-        length={1}
+        length={2}
         showControls={true} //TODO: chage when we have more
-        showIndicators={false}
+        showIndicators={true}
       >
         <MDBCarouselInner>
           <MDBCarouselItem itemId="1">
             <MDBNavLink to="/blog/Sibate0419">
-              <MDBView waves hover zoom>
+              <MDBView waves zoom>
                 <img
                   src={require("./assets/Sibate0419/Main.JPG")}
                   className="img-fluid"
@@ -56,6 +56,20 @@ const Home = () => (
                 />
                 <MDBMask className="flex-center" overlay="black-light">
                   <h1 className="white-text">Sibaté</h1>
+                </MDBMask>
+              </MDBView>
+            </MDBNavLink>
+          </MDBCarouselItem>
+        <MDBCarouselItem itemId="2">
+            <MDBNavLink to="/blog/Bocagrande1018">
+              <MDBView waves zoom>
+                <img
+                  src={require("./assets/Bocagrande1018/Main.JPG")}
+                  className="img-fluid"
+                  alt="Bocagrande"
+                />
+                <MDBMask className="flex-center" overlay="black-light">
+                  <h1 className="white-text">Bocagrande</h1>
                 </MDBMask>
               </MDBView>
             </MDBNavLink>
