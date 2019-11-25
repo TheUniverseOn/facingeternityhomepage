@@ -48,10 +48,10 @@ const Home = () => (
         <MDBCarouselInner>
           <MDBCarouselItem itemId="1">
             <MDBNavLink to="/blog/Sibate0419">
-              <MDBView waves hover>
+              <MDBView waves hover zoom>
                 <img
                   src={require("./assets/Sibate0419/Main.JPG")}
-                  className="img-fluid img-thumbnail"
+                  className="img-fluid"
                   alt="Sibaté"
                 />
                 <MDBMask className="flex-center" overlay="black-light">
