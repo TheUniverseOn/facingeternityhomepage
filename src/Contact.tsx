@@ -21,7 +21,7 @@ const Styles = {
 const particleOpt = {
   particles: {
     number: {
-      value: 150,
+      value: 40,
       density: {
         enable: true,
         value_area: 800
@@ -84,7 +84,7 @@ const MDBcontact = () => {
                     required
                     type="textarea"
                     name="message"
-                    rows="2"
+                    rows="1"
                     label="Your message"
                   />
                 </div>
@@ -106,12 +106,8 @@ const Contact = () => (
   <div>
     <Particles style={Styles.paticleContainer} params={particleOpt} />
 
-    <MDBContainer
-      className="d-flex align-items-center py-0 px-0"
-      style={{ height: "15vh" }}
-    ></MDBContainer>
-    <MDBContainer fluid className="py-0 px-0">
-      <MDBCol className="py-5">
+    <MDBContainer fluid>
+      <MDBCol className="py-3">
         <MDBcontact />
       </MDBCol>
     </MDBContainer>
